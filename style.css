@@ -1,0 +1,63 @@
+/* this is a comment in CSS */
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/*
+Selectors: class and id
+
+class       .    can be resused in multiple elements (not unique)
+id          #    can only be used in one element (unique)
+*/
+
+html{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto; /* two auto for two columns */
+    border-bottom: 1px solid black;
+    position: fixed; /* so it wont move around*/
+    top:0;
+    width: 97%;
+    background-color: white;
+}
+
+/* .text-resize{
+    font-size: 20px;
+} */
+
+.text-right{
+    text-align: right;
+}
+.james-photo{
+    width: 500px;
+}
+
+#greetings{
+    color:mediumorchid;
+}
+
+.major-box{
+    padding: 30px;
+    /*padding-top: 100px;*/
+    border: 1px solid black;
+    /*margin : 100px;*/
+    background-color: bisque;
+    
+}
+
+.grid-0{
+    display: grid;
+    grid-template-columns: auto auto; 
+}
+
+.box-0{
+    padding-right: 10px;
+}
+
+.intro{
+    text-align: center;
+}
